@@ -14,7 +14,7 @@
          
             $animals = Dog::all();
 
-            // dd é um vardump diferente
+            
             //dd($animals);
             return view('animals.index')->with('animais', $animals);
             
